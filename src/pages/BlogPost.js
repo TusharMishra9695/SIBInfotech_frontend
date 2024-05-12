@@ -14,7 +14,6 @@ export default function BlogPost() {
     ).then((res) => {
       setDetail(res.result[0]);
     });
-    console.log(window.location, "location");
   }
   return (
     <>
