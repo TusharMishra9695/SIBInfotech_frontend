@@ -1,3 +1,37 @@
-.App {
-  text-align: center;
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  background-color: #3498db;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+.nav a span {
+  font-size: large;
+  font-family: "sans-serif";
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.blog_img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+}
+.blog_post {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+.blog_list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
