@@ -9,11 +9,9 @@ export default function BlogList() {
     handleBlogs();
   }, []);
   function handleBlogs() {
-    getAPI(`http://localhost:5000/api/blog?category=${"personal"}`).then(
-      (res) => {
-        setblogList(res.result);
-      }
-    );
+    getAPI(`http://localhost:5000/api/blog?category=personal`).then((res) => {
+      setblogList(res.result);
+    });
   }
   return (
     <div>

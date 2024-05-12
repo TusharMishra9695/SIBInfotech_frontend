@@ -5,16 +5,16 @@ export default function Nav() {
   return (
     <div>
       <nav className="nav">
-        <Link to={`/?category=personal`}>
+        <Link to={`/`}>
           <span>Personal</span>
         </Link>
-        <Link to={`/?category=technology`}>
+        <Link to={`/`}>
           <span>Technology</span>
         </Link>
-        <Link to={`/?category=travel`}>
+        <Link to={`/`}>
           <span>Travel</span>
         </Link>
-        <Link to={`/?category=other`}>
+        <Link to={`/`}>
           <span>Other</span>
         </Link>
       </nav>
